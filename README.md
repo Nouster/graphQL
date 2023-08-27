@@ -26,7 +26,7 @@ npm install
 3. Configuration
    
 Create a .env file and configure your MySQL database:
-DATABASE_URL=mysql://<username>:<password>@<host>:<port>/<database>
+```DATABASE_URL=mysql://<username>:<password>@<host>:<port>/<database>```
 
 4. Database Migration
 
