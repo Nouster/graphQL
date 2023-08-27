@@ -19,7 +19,9 @@ cd your-project
 
 2. Install the dependencies by running the following command:
 
+```bash
 npm install
+```
 
 3. Configuration
    
@@ -29,9 +31,10 @@ DATABASE_URL=mysql://<username>:<password>@<host>:<port>/<database>
 4. Database Migration
 
 To initialize the database, run the following commands:
-
+```bash
 npx prisma migrate dev --name firstMigration
-
+```
 5. Starting the Server
-
+```bash
 run node index.ts
+```
